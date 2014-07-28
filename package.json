@@ -1,0 +1,29 @@
+{
+  "name": "sandboxer",
+  "version": "0.1.0",
+  "description": "Run JavaScript in a sandboxed context",
+  "author": "Florent Cailhol <florent.cailhol@gmail.com>",
+  "keywords": [
+    "isolate",
+    "sandbox",
+    "vm"
+  ],
+  "license": "MIT",
+  "repository": "ooflorent/sandboxer",
+  "dependencies": {
+    "lodash.assign": "^2.4.1",
+    "lodash.foreach": "^2.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.3",
+    "should": "^4.0.4"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "scripts": {
+    "test": "mocha --reporter spec"
+  }
+}
