@@ -1,6 +1,6 @@
 {
   "name": "sandboxer",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Run JavaScript in a sandboxed context",
   "author": "Florent Cailhol <florent.cailhol@gmail.com>",
   "keywords": [
